@@ -1,17 +1,19 @@
+```mermaid
 flowchart TD
 
-A[Flight Dataset] --> B[Apache Airflow]
+    A[Flight Dataset] --> B[Apache Airflow]
 
-B --> C[S3 Bronze Layer]
+    B --> C[S3 Bronze Layer]
 
-C --> D[PySpark ETL]
+    C --> D[PySpark ETL]
 
-D --> E[S3 Silver Parquet]
+    D --> E[S3 Silver Parquet]
 
-E --> F[Gold Analytics]
+    E --> F[Gold Analytics]
 
-F --> G[AWS Glue Catalog]
+    F --> G[AWS Glue Catalog]
 
-G --> H[Amazon Athena]
+    G --> H[Amazon Athena]
 
-H --> I[CloudWatch Monitoring]s
+    H --> I[CloudWatch Monitoring]
+```
