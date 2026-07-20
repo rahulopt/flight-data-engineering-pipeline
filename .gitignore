@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual Environment
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Airflow
+airflow/logs/
+
+# Spark
+spark-events/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
