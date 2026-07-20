@@ -1,0 +1,19 @@
+start
+ |
+download_dataset
+ |
+upload_to_s3
+ |
+bronze_validation
+ |
+spark_bronze_to_silver
+ |
+silver_quality_check
+ |
+spark_silver_to_gold
+ |
+glue_crawler
+ |
+athena_validation
+ |
+end
